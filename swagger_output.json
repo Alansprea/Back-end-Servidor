@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Biblioteca  APIs",
-    "description": "APIs do projeto Biblioteca",
+    "title": "Matrix APIs",
+    "description": "APIs do projeto Matrix",
     "version": "1.0.0"
   },
   "host": "localhost:3005",

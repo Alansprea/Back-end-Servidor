@@ -1,4 +1,4 @@
-const EmprestimoModel = require('../models/EmprestimoModel');
+const EmprestimoModel = require('../models/EmprestimoModel').EmprestimoModel;
 
 class EmprestimoController {
 

@@ -1,4 +1,4 @@
-const AlunoModel = require('../models/AlunoModel');
+const AlunoModel = require('../models/AlunoModel').AlunoModel;
 
 class AlunoController{
 
