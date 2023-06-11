@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 var date = new Date()
 
-const EmprestimoSchema = new Schema({
+const EmprestimoSchema = new mongoose.Schema({
     _id: {type: Number, required: true, default: -1},
     informacoesAluno: {
         type: mongoose.Schema.Types.ObjectId,

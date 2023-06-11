@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
-
-const LivroSchema = new Schema({
+const LivroSchema = new mongoose.Schema({
 
     _id: {type: Number, required: true, default: -1},
     titulo: {

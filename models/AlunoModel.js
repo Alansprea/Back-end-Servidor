@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 
-const Schema = mongoose.Schema;
 
-const AlunoSchema = new Schema({
+const AlunoSchema = new mongoose.Schema({
     _id: {type: Number, required: true, default: -1},
     nome: {
         type: String,

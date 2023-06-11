@@ -12,7 +12,9 @@ const doc = {
 const outputFile = './swagger_output.json'
 const endpointsFiles = [ './routes/Routes.js' ];
 
-swaggerAutogen(outputFile, endpointsFiles, doc);
+swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
+   require('./servidor.js')
+  });
 
 //npm install swagger-autogen and swagger-ui-express
 //npm run swagger-autogen
