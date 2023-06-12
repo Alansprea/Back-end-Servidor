@@ -11,7 +11,7 @@ function Aside() {
           <NavLink to="/livro">Livros</NavLink>
         </li>
         <li>
-          <a>Atividades</a>
+        <NavLink to="/aluno">Alunos</NavLink>
         </li>
         <li>
           <a>Aulas</a>

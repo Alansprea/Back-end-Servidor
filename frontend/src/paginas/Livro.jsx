@@ -167,8 +167,11 @@ function Livro  ()  {
       <table>
         <tbody>
           <tr>
-            <th>ID</th>
-            <th>Descrição</th>
+            <th>Titulo</th>
+            <th>Categoria</th>
+            <th>Sinopse</th>
+            <th>Autor</th>
+            <th>Quantidade</th>
             <th>Ações</th>
           </tr>
           {getLinhasDaTabela()}

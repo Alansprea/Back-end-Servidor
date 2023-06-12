@@ -169,9 +169,12 @@ function Aluno() {
   }
 
   return (
-    <div>
-      <h2>Cadastro de Alunos</h2>
-      {getConteudo()}
+    <div className="cadastros">
+      <Aside />
+      <div className="conteudo">
+        <h2>Cadastro de Alunos</h2>
+        {getConteudo()}
+      </div>
     </div>
   );
 }
